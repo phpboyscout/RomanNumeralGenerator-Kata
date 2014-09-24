@@ -1,4 +1,4 @@
-h1. Roman Numeral Generator
+# Roman Numeral Generator
 
 This code kata has been built using PHP and utilises Codeception for the handling of Unit tests.
 You will need to use composer to install the development dependencies.
