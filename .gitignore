@@ -1,0 +1,22 @@
+## Generic files
+*~
+*.lock
+*.DS_Store
+*.swp
+*.out
+
+## IDE files
+.idea/
+.project/
+.settings
+.buildpath
+/*.sublime-project
+*.sublime-workspace
+
+## Composer
+vendor/
+composer.lock
+
+## Build config
+build/build.properties
+tests/_output/*

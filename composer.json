@@ -1,0 +1,29 @@
+{
+    "name": "cockayne/romannumeralgenerator",
+    "description": "Convert Arabic Numerals into Roman Numerals",
+    "license": "BSD 3 clause",
+    "authors": [
+        {
+            "name": "Matt Cockayne",
+            "email": "matt@mattcockayne.uk"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+
+    },
+    "require-dev": {
+        "codeception/codeception": "@stable",
+        "phpmd/phpmd" : "1.4.*",
+        "phing/phing": "2.5.0"
+    },
+    "autoload": {
+        "psr-0": {
+            "RomanNumeralGenerator": "src/",
+            "RomanNumeralGeneratorTest": "tests/unit/"
+        },
+        "classmap": [
+            "src/"
+        ]
+    }
+}
